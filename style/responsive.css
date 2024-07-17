@@ -1,0 +1,347 @@
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        margin: 3rem auto;
+        gap: 2.5rem;
+    }
+    .nav-menu>ul{
+        gap: 1.5rem;
+    }
+    
+    .banner{
+        max-width: 90%;
+        height: 40rem;
+    }
+    .banner>h1{
+        font-size: 2.2rem;
+        padding-top: 5rem;
+    }
+    
+    .banner>p{
+        max-width: 80%;
+        padding-bottom: 5rem;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        backdrop-filter: blur(1px);
+    }
+    
+    button , select {
+        padding: 1rem 2rem;
+        text-align: left;
+        
+    }
+    .orng{
+       text-align: center;
+    } 
+    
+    
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hill-photo>img{
+         max-width: 100%;
+         margin-bottom:2rem ;
+    }
+    
+    .layout>p{
+        max-width:  90%;
+    }
+    
+    .row-1 , .row-2 , .row-3{
+    display: grid;
+    grid-template-columns: 1fr;
+     
+    }
+    
+    .why-us>p{
+        max-width: 90%;
+        padding-bottom: 3rem;
+    }
+    .us{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+    .num-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+     }
+    
+     .discount>p{
+        max-width: 90%;
+     }
+    
+     .deals{
+     justify-content: end;
+     height: 38rem;
+    
+     }
+     .cntr{
+        justify-content: end;
+        height: 38rem;
+     }
+     .card{
+        max-width: 90%;
+        margin-bottom: 2.5rem;
+     }
+    
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+    .hill-photo>img{
+        margin-top: 3rem;
+    }
+    
+    .travel{
+        display: flex;
+        flex-direction: column;
+        margin: -2rem auto;
+    }
+    
+    .argent{
+        width: 13rem;
+        height: 5.5rem; 
+        font-size: 1.3rem;
+        font-weight: 500;
+        right: 19%;
+   bottom: 13%;
+    
+    }
+    .critical{
+        font-size: 1.5rem;
+    }
+    
+    .form{
+        max-width: 100%;
+        border: 1px solid #FF5400;
+        border-radius: .6rem;
+       margin: auto;
+     }
+    
+    
+
+
+}
+
+
+
+@media screen  and (min-width:993px) and (max-width:1256px){
+ 
+    .btn{
+        max-width: 90%;
+        flex-wrap: nowrap;
+      
+    }
+
+
+    .popular{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .tour>p{
+        width: 80%;
+        padding-bottom: 1rem;
+        font-size: .9rem;
+        text-align: justify;
+     }
+
+     .hill-photo{
+        margin: auto;
+       } 
+
+       .travel{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+ .form{
+    width: 100%;
+    border: 1px solid #FF5400;
+    border-radius: .6rem;
+ }
+
+.save{
+    margin: auto; 
+} 
+
+
+
+    }
+
+
+
+    @media screen  and (min-width:1257px) and (max-width:1362px){
+        
+
+        .argent{
+            width: 13rem;
+            height: 5.5rem; 
+            font-size: 1.3rem;
+            font-weight: 500;
+            right: 5%;
+       bottom: 25%;
+        
+        }
+        .critical{
+            font-size: 1.5rem;
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+nav{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 3rem auto;
+    gap: 2.5rem;
+}
+.nav-menu>ul{
+    gap: 1.5rem;
+}
+
+.banner{
+    max-width: 90%;
+    height: 40rem;
+}
+.banner>h1{
+    font-size: 2.2rem;
+    padding-top: 5rem;
+}
+
+.banner>p{
+    max-width: 80%;
+    padding-bottom: 5rem;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    backdrop-filter: blur(1px);
+}
+
+button , select {
+    padding: 1rem 2rem;
+    text-align: left;
+    
+}
+.orng{
+   text-align: center;
+} 
+
+
+.popular{
+    display: flex;
+    flex-direction: column;
+}
+
+.hill-photo>img{
+     max-width: 100%;
+     margin-bottom:2rem ;
+}
+
+.layout>p{
+    max-width:  90%;
+}
+
+.row-1 , .row-2 , .row-3{
+display: grid;
+grid-template-columns: 1fr;
+ 
+}
+
+.why-us>p{
+    max-width: 90%;
+    padding-bottom: 3rem;
+}
+.us{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+}
+.num-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+ }
+
+ .discount>p{
+    max-width: 90%;
+ }
+
+ .deals{
+ justify-content: end;
+ height: 38rem;
+
+ }
+ .cntr{
+    justify-content: end;
+    height: 38rem;
+ }
+ .card{
+    max-width: 90%;
+    margin-bottom: 2.5rem;
+ }
+
+.popular{
+    display: flex;
+    flex-direction: column;
+}
+.hill-photo>img{
+    margin-top: 3rem;
+}
+
+.travel{
+    display: flex;
+    flex-direction: column;
+    margin: -2rem auto;
+}
+
+.argent{
+    width: 13rem;
+    height: 5.5rem; 
+    font-size: 1.3rem;
+    font-weight: 500;
+
+
+}
+.critical{
+    font-size: 1.5rem;
+}
+
+.form{
+    width: 25rem;
+    border: 1px solid #FF5400;
+    border-radius: .6rem;
+ }
+
+
+}
